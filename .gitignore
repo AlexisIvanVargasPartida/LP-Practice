@@ -1,0 +1,5 @@
+public/js
+*.js
+dist/
+node_modules/
+package-lock.json

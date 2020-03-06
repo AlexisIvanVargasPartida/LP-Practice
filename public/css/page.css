@@ -1,0 +1,172 @@
+.container {
+    width: 85%;
+    max-width: 850px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #333;
+    color: white;
+    padding: 2rem;
+    position: fixed;
+    left: 0;
+    top: 0;
+    right: 0;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome-nav-cotainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.welcome {
+    letter-spacing: 8px;
+    font-size: 1.8em;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.container-section1 {
+    background: #ECE7E7;
+    text-align: center;
+    height: 100vh;
+    padding-top: 6rem;
+    font-style: italic;
+}
+
+.container-section1 img {
+    width: 250px;
+}
+
+.container-section1 h1 {
+    font: bold;
+    font-size: 50px;
+    margin: 0;
+}
+
+.container-section1 h3 {
+    font: bold 36px 'Cookie', cursive;
+    margin: 0;
+    text-align: center;
+}
+
+.navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation ul li {
+    display: inline-block;
+}
+
+.navigation ul li a {
+    display: block;
+    padding: 0.5rem 1rem;
+    transition: all 0.3s linear;
+    border-radius: 8px;
+}
+
+.navigation ul li a:hover {
+    background: #333;
+}
+
+@media only screen and (max-width: 767px) {
+    .menu-icon {
+        display: block;
+        cursor: pointer;
+        padding: 0.5rem 1rem;
+    }
+    .navigation {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .navigation ul {
+        display: none;
+    }
+    .navigation ul.show {
+        display: block;
+    }
+    .navigation ul li {
+        display: block;
+    }
+    .navigation ul li a {
+        display: block;
+        padding: 0.5rem 1rem;
+        transition: all 0.3s linear;
+        border-radius: 8px;
+    }
+    .navigation ul li a:hover {
+        background: #333;
+    }
+    .container-section1 {
+        background: #ECE7E7;
+        text-align: center;
+        height: 70vh;
+        padding-top: 6rem;
+        font-style: italic;
+    }
+    .container-section1 h1 {
+        font: bold;
+        font-size: 40px;
+        margin: 0;
+    }
+    .container-section1 h3 {
+        font: normal 26px 'Cookie', cursive;
+        margin: 0;
+    }
+    .container-section1 img {
+        width: 150px;
+    }
+    .about {
+        background-color: #ECE7E7;
+        color: rgb(65, 65, 65);
+        height: 100vh;
+    }
+    .about-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-data {
+        display: flex;
+        flex-direction: column;
+        max-width: 550px;
+    }
+    .about-datam {
+        font-size: 1.10em;
+        padding: 1em;
+    }
+    .about-button {
+        flex-direction: column;
+        margin: 1em;
+    }
+    .button {
+        background-color: rgb(65, 65, 65);
+        border-color: rgb(65, 65, 65);
+        color: #ECE7E7;
+        font-size: 1.15em;
+        width: 220px;
+        height: 55px;
+    }
+    .button:hover {
+        background-color: hsl(278, 90%, 46%);
+        border-color: hsl(278, 90%, 46%);
+        color: #fff
+    }
+}
+
+
+/*section about*/
+
+.imagen {
+    width: 60px;
+}
