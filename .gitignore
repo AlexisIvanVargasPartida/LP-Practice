@@ -1,5 +1,9 @@
 public/js
 *.js
 dist/
-node_modules/
+/node_modules
+node_modules/ 
+/.cache
+.cache/
 package-lock.json
+*.cache
