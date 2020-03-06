@@ -248,8 +248,8 @@ footer {
     .container-section1 {
         background: #ECE7E7;
         text-align: center;
-        height: 70vh;
-        padding-top: 6rem;
+        height: 80vh;
+        padding-top: 12rem;
         font-style: italic;
     }
     .container-section1 h1 {
@@ -264,6 +264,41 @@ footer {
     .container-section1 img {
         width: 150px;
     }
+    .about {
+        background-color: #ECE7E7;
+        color: rgb(65, 65, 65);
+        height: 100vh;
+    }
+    .about-text {
+        display: flex;
+        flex-direction: column;
+    }
+    .about-data {
+        display: flex;
+        flex-direction: column;
+        max-width: 550px;
+    }
+    .about-datam {
+        font-size: 1.10em;
+        padding: 1em;
+    }
+    .about-button {
+        flex-direction: column;
+        margin: 1em;
+    }
+    .button {
+        background-color: rgb(65, 65, 65);
+        border-color: rgb(65, 65, 65);
+        color: #ECE7E7;
+        font-size: 1.15em;
+        width: 220px;
+        height: 55px;
+    }
+    .button:hover {
+        background-color: hsl(278, 90%, 46%);
+        border-color: hsl(278, 90%, 46%);
+        color: #fff
+    }
 }
 
 
@@ -272,7 +307,7 @@ footer {
 #types-section,
 #contact-section,
 #about-section {
-    padding: 4.8rem 0;
+    padding: 5rem 0;
 }
 
 #types-section .types-title-box {
@@ -364,6 +399,28 @@ div.modal-body img {
 
 div.modal-body .modal-title {
     font-family: 'Fantasy';
+}
+
+
+/* section banner*/
+
+.slider-1 {
+    background: #ECE7E7;
+    text-align: center;
+    height: 70vh;
+    padding-top: 12rem;
+    font-style: italic;
+}
+
+.slider-1 h1 {
+    font: bold;
+    font-size: 40px;
+    margin: 0;
+}
+
+.slider-1 h3 {
+    font: normal 26px 'Cookie', cursive;
+    margin: 0;
 }
 
 img {
